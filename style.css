@@ -1,0 +1,61 @@
+
+/* body{ */
+    /* background-image: linear-gradient(to right,#89C0C5,#224362); */
+    
+    /* background-color: #89C0C5; */
+/* } */
+
+.navbar{
+    background-color: #224362;
+    /* background-image: linear-gradient(to right, #224362,#89C0C5,#224362); */
+}
+.carousel-item img{
+    
+    height:500px;
+
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index:2;
+    
+}
+.carousel-caption h5{
+    font-size:40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1b334a;
+    
+}
+.about-image{
+    max-width: 100%;
+}
+.skills{
+    height: 40px;
+    /* display:block; */
+    /* background: none;
+    border-radius: 0; */
+}
+.progress-bar{
+    /* background-color: #1b334a; */
+    background-color: #6aabb1;
+}
+.btn{
+    background-color: #224362;
+
+}
+.btn:hover{
+    background-color: #1b334a;
+}
+
+.icon-color{
+    color: white;
+}
+
+.footer-color{
+    background-color: #224362;
+    color:white;
+}
+.location-color{
+    color: #224362;
+
+}

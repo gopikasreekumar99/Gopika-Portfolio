@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #224362;
+    
+}
+.paper-link{
+    /* color:#6aabb1; */
+    color:#224362;
+}
+.project-heading, .seminar-name, .activity-name{
+    color:#224362
+}
+.paper-link:hover{
+    color:#141f2a;
+}
+
+.column1-color{
+    /* background-color: #224362; */
+    background-color: rgb(34, 67, 98,80%);
+    
+    color:white;
+}
+
+.footer-color{
+    background-color: #224362;
+    color:white;
+}
+.icon-color{
+    color: white;
+}
