@@ -41,7 +41,7 @@ main{
 }
 
 
-.fb-image, .PW-home, .Theme-home{
+.fb-image, .PW-home, .Theme-home, .portfolio-home{
     width:700px;
     height:auto;
     transition:width 2s, height 4s;
@@ -58,6 +58,11 @@ main{
 .Theme-home:hover{
     width: 900px;
     height:auto;
+}
+.portfolio-home:hover{
+    width: 900px;
+    height:auto;
+
 }
 
 .img-shadow{
