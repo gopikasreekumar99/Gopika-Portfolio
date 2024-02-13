@@ -1,0 +1,76 @@
+/* *{
+    margin:0;
+}
+html,body{
+    height:100%;
+} */
+
+body{
+    margin:0;
+    width:100%;
+    
+    
+}
+.content{
+    min-height: calc(100vh - 150px);
+}
+
+
+header{
+    background-color: #224362;
+    /* background-color: #6aabb1; */
+    height:80px;
+    /* color:white; */
+}
+.navbar{
+    background-color: rgb(34, 67, 98,0.7);
+    
+}
+.breadcrumb-section{
+    /* background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+    position: fixed;
+    top:80px;
+    width:100%;
+  
+}
+main{
+    color:#224362;
+}
+.text-justify{
+    text-align: justify;
+}
+
+
+.fb-image, .PW-home, .Theme-home{
+    width:700px;
+    height:auto;
+    transition:width 2s, height 4s;
+}
+.fb-image:hover{
+    width:900px;
+    height:auto;
+}
+.PW-home:hover{
+    width:900px;
+    height:auto;
+
+}
+.Theme-home:hover{
+    width: 900px;
+    height:auto;
+}
+
+.img-shadow{
+    box-shadow: 0 2px 4px rgba(63, 23, 23, 0.1);
+}
+
+footer{
+    height:70px;
+    background-color: #224362;
+    
+    
+
+}
+.icon-color{
+    color:white;
+}
