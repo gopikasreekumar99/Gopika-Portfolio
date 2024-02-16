@@ -2,9 +2,18 @@
 /* html,body{
     overflow-x: hidden;
 } */
-.navbar{
+
+header{
+    height:80px;
     background-color: #224362;
+}
+.navbar{
+    background-color: rgb(34, 67, 98,0.7);
+    
     /* background-image: linear-gradient(to right, #224362,#89C0C5,#224362); */
+}
+.content{
+    min-height: calc(100vh - 160px);
 }
 .carousel-item img{
     
@@ -26,6 +35,9 @@
 .about-image{
     max-width: 100%;
 }
+.text-justify{
+    text-align: justify;
+}
 .skills{
     height: 40px;
     /* display:block; */
@@ -38,21 +50,26 @@
 }
 .btn{
     background-color: #224362;
+    color:white;
 
 }
 .btn:hover{
     background-color: #1b334a;
+    color:white;
 }
 
 .icon-color{
     color: white;
 }
 
-.footer-color{
+.footer{
     background-color: #224362;
     color:white;
+    height:80px;
+
 }
 .location-color{
     color: #224362;
 
 }
+/* @media all and (min-width:) */

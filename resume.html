@@ -9,16 +9,16 @@
     <link href="resume.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
-<body class="overflow-x-hidden d-flex flex-column min-vh-100">
-    <header class="mb-5"> 
-        <nav class="navbar navbar-expand-lg  p-1 fixed-top mb-5">
+<body class="">
+    <header class="sticky-top"> 
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
               <a class="navbar-brand text-white fw-bold fs-2 " href="#">Gopika Sreekumar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto text-end ">
+                <ul class="navbar-nav ms-auto text-center ">
                   <li class="nav-item">
                     <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
                   </li>
@@ -32,7 +32,7 @@
                     <a class="nav-link text-white" href="#resume">Resume</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href=" ">Portfolio</a>
+                    <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-white" href="index.html#contact">Contact</a>
@@ -42,187 +42,208 @@
             </div>
           </nav>
     </header>
+    <!-- ------------------------------------------------------- Main Section-----------------------------------------------------  -->
+    <main class="content mb-3">
 
-    <!-- -------------------------------------------------------Resume Section-------------------------------------------  -->
+      <!-- ------------------------Bread Crumbs--------------- -->
+      <section class="breadcrumb-section  p-2 pb-1 bg-white ">
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb ">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none " style="color:#224362">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page" style="color:#6aabb1">Resume</li>
+                </ol>
+              </nav>
+        </div>
+    </section>
+    <!-- ---------------------Bread Crumbs End--------------------  -->
 
-    <section class="p-1 mt-5 mb-3 bg-light " id="resume">
-        <div class="container mt-2">
-          <h3 class="text-center fw-medium fs-2 mt-3 mb-3">Resume</h3>
-          <div class="row ">
+
+      <!-- -------------------------------------------------------Resume Section-------------------------------------------  -->
+
+    <section class="p-1  bg-light " id="resume">
+      <div class="container mt-2">
+        <h3 class="text-center fw-medium fs-2 mt-3 mb-3">Resume</h3>
+        <div class="row ">
+          
+          <!-- <h4 class="text-center fw-light fs-4 mt-3 mb-3"> Career Objective</h4> -->
+          <!-- <p class="text-center"> Seeking a position in a reputable organization to enhance my professional skills and grow in a dynamic work</p> -->
+          <div class="col-md-6 column1-color">
+            <h4 class="text-start fw-light fs-4 mt-3 mb-3"> Career Objective</h4>
+            <p class="text-start"> Seeking a position in a reputable organization to enhance my professional skills and grow in a dynamic work</p>
+            <h4 class="text-start fw-light fs-4 mt-3 mb-3">Education</h4>
+            <!-- -------Education 1------- -->
+            <div class="d-flex">
+              <span class="pe-1"><i class="fa-solid fa-graduation-cap"></i></span>
+              <p class="fw-bold">Master of Technology (M.Tech) in Computer Science and Engineering</p>
+
+            </div>
+            <p class="ps-4  fw-normal">Mohandas College of Engineering and Technology <br>
+              CGPA: 8.68 <br>
+              Passing Year: 2023</p>
             
-            <!-- <h4 class="text-center fw-light fs-4 mt-3 mb-3"> Career Objective</h4> -->
-            <!-- <p class="text-center"> Seeking a position in a reputable organization to enhance my professional skills and grow in a dynamic work</p> -->
-            <div class="col-md-6 column1-color">
-              <h4 class="text-start fw-light fs-4 mt-3 mb-3"> Career Objective</h4>
-              <p class="text-start"> Seeking a position in a reputable organization to enhance my professional skills and grow in a dynamic work</p>
-              <h4 class="text-start fw-light fs-4 mt-3 mb-3">Education</h4>
-              <!-- -------Education 1------- -->
-              <div class="d-flex">
-                <span class="pe-1"><i class="fa-solid fa-graduation-cap"></i></span>
-                <p class="fw-bold">Master of Technology (M.Tech) in Computer Science and Engineering</p>
-  
-              </div>
-              <p class="ps-4  fw-normal">Mohandas College of Engineering and Technology <br>
-                CGPA: 8.68 <br>
-                Passing Year: 2023</p>
-              
-              <!-- -----------Education 2---------------  -->
-              <div class="d-flex">
-                <span class="pe-1"><i class="fa-solid fa-graduation-cap"></i></span>
-                <p class="fw-bold">Bachelor of Technology (B.Tech) in Computer Science and Engineering</p>
-              </div>
-              <p class="ps-4  fw-normal">Heera College of Engineering and Technology <br>
-                CGPA: 8.68<br>
-                Passing Year: 2021</p>
-              <!-- ----------------Education 3---------------------  -->
-              <div class="d-flex">
-                <span class="pe-1"><i class="fa-solid fa-school"></i></span>
-                <p class="fw-bold">Government Girls Higher Secondary School Nedumangad.</p>
-  
-              </div>
-              
-              <p class="ps-4  fw-normal">Plus Two, Biology Science <br>
-                Percentage of Marks: 85.91%<br>
-                Passing Year: 2017</p>
-              <!-- -----------------------------Education 4---------------  -->
-              <div class="d-flex">
-                <span class="pe-1"><i class="fa-solid fa-school"></i></span>
-                <p class="fw-bold">Lourdes Mount Higher Secondary School</p>
-  
-              </div>
-             
-              <p class="ps-4  fw-normal">Tenth <br>
-                Percentage of Marks:95.55%<br>
-                Passing Year: 2015</p>
+            <!-- -----------Education 2---------------  -->
+            <div class="d-flex">
+              <span class="pe-1"><i class="fa-solid fa-graduation-cap"></i></span>
+              <p class="fw-bold">Bachelor of Technology (B.Tech) in Computer Science and Engineering</p>
             </div>
-  
+            <p class="ps-4  fw-normal">Heera College of Engineering and Technology <br>
+              CGPA: 8.68<br>
+              Passing Year: 2021</p>
+            <!-- ----------------Education 3---------------------  -->
+            <div class="d-flex">
+              <span class="pe-1"><i class="fa-solid fa-school"></i></span>
+              <p class="fw-bold">Government Girls Higher Secondary School Nedumangad.</p>
+
+            </div>
             
-  
-  
-            <div class="col-md-6 column2-color">
-              <!-- -------------------------Academic Projects----------------------------------------- -->
-              <h4 class="text-start fw-light fs-4 mt-3 mb-3">Academic Projects</h4>
-              <!-- -----------------Project 1---------------------------  -->
-              <details class="pb-2">
-              <summary class=" project-heading">Brain age estimation from MRI using Cascade networks with Ranking Loss.</summary>
-              <p class="ps-4  fw-normal">A project on estimating brain age from MRI image and sex label of a person using a two-stage age network.<br>
-                Technologies: Python, Deep Learning, CNN, Capsule Network, TensorFlow Framework.
-              </p>
-            </details>
-              <!-- ---------------------Project 2-------------------------  -->
-              <details class="pb-2">
-              <summary class=" project-heading">Detection of Cyberbullying on social media using Machine Learning.</summary>
-              <p class="ps-4  fw-normal">A mini project on detecting cyberbullying on Twitter, Wikipedia, and YouTube comments.<br>
-                Technologies: Python, Multi-Layer Perceptron, Natural Language Processing.
-              </p>
-              </details>
-              <!-- ----------------------Project 3----------------- -->
-              <details class="pb-2">
-              <summary class=" project-heading">Personality Prediction and Career Guidance using Machine Learning.</summary>
-              <p class="ps-4  fw-normal">A project on predicting the personality of a person and giving career guidance using the Big Five model.<br>
-                Technologies: Python, Decision Tree, Linear Regression.
-              </p>
-             </details>
-              <!-- -------------------------Project 4------------------------------   -->
-              <details class="pb-2"> 
-              <summary class=" project-heading">Smart Dustbin using Arduino.</summary>
-              <p class="ps-4  fw-normal">Designed and implemented a smart dustbin using Arduino Uno, Servo Motor and Sensor as a mini project.
-              </p>
-            </details>
-            <!-- -------------------------------Paper Publications-------------------------   -->
-            <h4 class="text-start fw-light fs-4 mt-3 mb-3">Paper Publications</h4>
-            <details class="pb-2">
-              <summary class=" "><a class="text-decoration-none paper-link" href="" >Leveraging Capsule Networks for Accurate Brain Age Estimation From MRI.</a> </summary>
-              <p class="ps-4  fw-normal text-break">Unraveling Brain Age: Leveraging Capsule Networks for Accurate Brain Age Estimation From MRI.<br>
-                Journal of Emerging Technologies and Innovative Research (JETIR). 05/08/2023 </p>
-            </details>
-            <details class="pb-2">
-              <summary class=" "><a class="text-decoration-none paper-link " href="" >A Survey on Brain Age Prediction Models.</a> </summary>
-              <p class="ps-4  fw-normal text-break">International Journal of Engineering Development and Research(IJEDR). 04/12/2022
-             </p>
-  
-            </details>
-            <!-- -------------------------------------Academic Seminars----------------------  -->
-            <h4 class="text-start fw-light fs-4 mt-3 mb-3">Academic Seminars</h4>
-            <!-- ---------------------Seminar 1----------------------------   -->
-            <div class="d-inline-flex">
-              <span class="pe-1"><i class="fa-solid fa-person-chalkboard"> </i></span> 
-              <p class=" seminar-name">
-                Alzheimer’s Disease Detection Using Comprehensive Analysis of Time Up and Go Test Via Kinect V.2
-                Camera and Machine Learning. </p> 
-            </div>
-            <!-- ------------------------Seminar 2-----------------------   -->
-            <div class="d-inline-flex">
-              <span class="pe-1"><i class="fa-solid fa-person-chalkboard"> </i></span> 
-              <p class="seminar-name">
-                Artificial Intelligence in Digital media: The Era of Deepfakes.</p> 
-            </div>
-            <!-- -------------------Seminar 3-------------------------   -->
-            <div class="d-inline-flex">
-              <span class="pe-1"><i class="fa-solid fa-person-chalkboard"> </i></span> 
-              <p class=" seminar-name">
-                Computational Intelligence enabled Cybersecurity for Internet of Things.</p> 
-            </div>
-  
-            <!-- --------------------- Co Curricular Activities------------------------   -->
-            <h4 class="text-start fw-light fs-4 mt-3 mb-3">Co-Curricular Activities</h4>
+            <p class="ps-4  fw-normal">Plus Two, Biology Science <br>
+              Percentage of Marks: 85.91%<br>
+              Passing Year: 2017</p>
+            <!-- -----------------------------Education 4---------------  -->
             <div class="d-flex">
-              <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
-              <p class="activity-name">M.Tech PG Coordinator of Student Council' 22. </p>
+              <span class="pe-1"><i class="fa-solid fa-school"></i></span>
+              <p class="fw-bold">Lourdes Mount Higher Secondary School</p>
+
             </div>
-            <div class="d-flex">
-              <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
-              <p class="activity-name">PG Student Member of Library Council' 22. </p>
-            </div>
-            <div class="d-flex">
-              <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i></span>
-              <p class="activity-name">Chairperson of Computer Science Chapters Association' 21.</p>
-            </div>
-            <div class="d-flex">
-              <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i></span>
-              <p class="activity-name"> Coordinator of Placement Drive '20. </p>
-            </div>
-            <div class="d-flex">
-              <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
-              <p class="activity-name">Event Sub Coordinator of Inter College Cultural Fest '19. </p>
-            </div>
-            <div class="d-flex">
-              <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
-              <p class="activity-name">Volunteered for the Inter College Cultural Fest '18. </p>
-            </div>
-            <div class="d-flex">
-              <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
-              <p class="activity-name">Selected as Class Representative from 2017-2020.</p>
-            </div>
-  
-  
-            
            
-  
-  
-           
-  
-  
-  
-            </div>
-  
-  
-  
-  
-            </div>
+            <p class="ps-4  fw-normal">Tenth <br>
+              Percentage of Marks:95.55%<br>
+              Passing Year: 2015</p>
+          </div>
+
+          
+
+
+          <div class="col-md-6 column2-color">
+            <!-- -------------------------Academic Projects----------------------------------------- -->
+            <h4 class="text-start fw-light fs-4 mt-3 mb-3">Academic Projects</h4>
+            <!-- -----------------Project 1---------------------------  -->
+            <details class="pb-2">
+            <summary class=" project-heading">Brain age estimation from MRI using Cascade networks with Ranking Loss.</summary>
+            <p class="ps-4  fw-normal">A project on estimating brain age from MRI image and sex label of a person using a two-stage age network.<br>
+              Technologies: Python, Deep Learning, CNN, Capsule Network, TensorFlow Framework.
+            </p>
+          </details>
+            <!-- ---------------------Project 2-------------------------  -->
+            <details class="pb-2">
+            <summary class=" project-heading">Detection of Cyberbullying on social media using Machine Learning.</summary>
+            <p class="ps-4  fw-normal">A mini project on detecting cyberbullying on Twitter, Wikipedia, and YouTube comments.<br>
+              Technologies: Python, Multi-Layer Perceptron, Natural Language Processing.
+            </p>
+            </details>
+            <!-- ----------------------Project 3----------------- -->
+            <details class="pb-2">
+            <summary class=" project-heading">Personality Prediction and Career Guidance using Machine Learning.</summary>
+            <p class="ps-4  fw-normal">A project on predicting the personality of a person and giving career guidance using the Big Five model.<br>
+              Technologies: Python, Decision Tree, Linear Regression.
+            </p>
+           </details>
+            <!-- -------------------------Project 4------------------------------   -->
+            <details class="pb-2"> 
+            <summary class=" project-heading">Smart Dustbin using Arduino.</summary>
+            <p class="ps-4  fw-normal">Designed and implemented a smart dustbin using Arduino Uno, Servo Motor and Sensor as a mini project.
+            </p>
+          </details>
+          <!-- -------------------------------Paper Publications-------------------------   -->
+          <h4 class="text-start fw-light fs-4 mt-3 mb-3">Paper Publications</h4>
+          <details class="pb-2">
+            <summary class=" "><a class="text-decoration-none paper-link" href="" >Leveraging Capsule Networks for Accurate Brain Age Estimation From MRI.</a> </summary>
+            <p class="ps-4  fw-normal text-break">Unraveling Brain Age: Leveraging Capsule Networks for Accurate Brain Age Estimation From MRI.<br>
+              Journal of Emerging Technologies and Innovative Research (JETIR). 05/08/2023 </p>
+          </details>
+          <details class="pb-2">
+            <summary class=" "><a class="text-decoration-none paper-link " href="" >A Survey on Brain Age Prediction Models.</a> </summary>
+            <p class="ps-4  fw-normal text-break">International Journal of Engineering Development and Research(IJEDR). 04/12/2022
+           </p>
+
+          </details>
+          <!-- -------------------------------------Academic Seminars----------------------  -->
+          <h4 class="text-start fw-light fs-4 mt-3 mb-3">Academic Seminars</h4>
+          <!-- ---------------------Seminar 1----------------------------   -->
+          <div class="d-inline-flex">
+            <span class="pe-1"><i class="fa-solid fa-person-chalkboard"> </i></span> 
+            <p class=" seminar-name">
+              Alzheimer’s Disease Detection Using Comprehensive Analysis of Time Up and Go Test Via Kinect V.2
+              Camera and Machine Learning. </p> 
+          </div>
+          <!-- ------------------------Seminar 2-----------------------   -->
+          <div class="d-inline-flex">
+            <span class="pe-1"><i class="fa-solid fa-person-chalkboard"> </i></span> 
+            <p class="seminar-name">
+              Artificial Intelligence in Digital media: The Era of Deepfakes.</p> 
+          </div>
+          <!-- -------------------Seminar 3-------------------------   -->
+          <div class="d-inline-flex">
+            <span class="pe-1"><i class="fa-solid fa-person-chalkboard"> </i></span> 
+            <p class=" seminar-name">
+              Computational Intelligence enabled Cybersecurity for Internet of Things.</p> 
+          </div>
+
+          <!-- --------------------- Co Curricular Activities------------------------   -->
+          <h4 class="text-start fw-light fs-4 mt-3 mb-3">Co-Curricular Activities</h4>
+          <div class="d-flex">
+            <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
+            <p class="activity-name">M.Tech PG Coordinator of Student Council' 22. </p>
+          </div>
+          <div class="d-flex">
+            <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
+            <p class="activity-name">PG Student Member of Library Council' 22. </p>
+          </div>
+          <div class="d-flex">
+            <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i></span>
+            <p class="activity-name">Chairperson of Computer Science Chapters Association' 21.</p>
+          </div>
+          <div class="d-flex">
+            <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i></span>
+            <p class="activity-name"> Coordinator of Placement Drive '20. </p>
+          </div>
+          <div class="d-flex">
+            <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
+            <p class="activity-name">Event Sub Coordinator of Inter College Cultural Fest '19. </p>
+          </div>
+          <div class="d-flex">
+            <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
+            <p class="activity-name">Volunteered for the Inter College Cultural Fest '18. </p>
+          </div>
+          <div class="d-flex">
+            <span class="pe-2"><i class="fa-solid fa-person-military-to-person"></i> </span>
+            <p class="activity-name">Selected as Class Representative from 2017-2020.</p>
+          </div>
+
+
+          
+         
+
+
+         
+
+
+
+          </div>
+
+
+
+
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
+
+    </main>
+
+    
 
 
 
       <!-- --------------------------- Footer-------------------     -->
-      <footer class="footer-color  mt-auto">
-        <div class="container-fluid p-2   ">
+      <footer class="footer">
+        <div class="container">
           <div class="row ">
             
             <div class="col-md-12  text-center ">
-              <p class="text-center">Hire Me</p>
+              <p class="text-center pt-2">Hire Me</p>
               <a href="https://www.linkedin.com/in/gopikasreekumar99/" class="text-decoration-none icon-color"> <i class="fa-brands fa-linkedin p-1"></i> </a>
               <a href="https://github.com/gopikasreekumar99" class="text-decoration-none icon-color"> <i class="fa-brands fa-github p-1"></i> </a>
               <a href="tel:+91 9207965495" class="text-decoration-none icon-color"> <i class="fa-solid fa-phone p-1"></i></a>

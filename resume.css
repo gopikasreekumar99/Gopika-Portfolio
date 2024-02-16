@@ -3,9 +3,23 @@
     
 } */
 
-.navbar{
+header{
     background-color: #224362;
+    height:80px;
+
+}
+.navbar{
     
+    background-color: rgb(34, 67, 98,0.7);
+}
+.content{
+    min-height: calc(100vh - 160px);
+}
+.breadcrumb-section{
+    /* background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+    position: fixed;
+    top:80px;
+    width:100%;
 }
 .paper-link{
     /* color:#6aabb1; */
@@ -25,9 +39,10 @@
     color:white;
 }
 
-.footer-color{
+.footer{
     background-color: #224362;
     color:white;
+    height: 80px;
 }
 .icon-color{
     color: white;
